@@ -39,7 +39,7 @@ ITZIK!
 //start the node server
 app.set('port', process.env.PORT || PORT);
 app.get('/' ,function (req,res) {
-    var clientIp = requestIp.getClientIp(rgeq);
+    var clientIp = requestIp.getClientIp(req);
     res.send('zvi\'s server\nWhere all good things start.' + "\nYour ip: +" + clientIp);
 });
 app.listen(app.get('port'),function(){
