@@ -43,7 +43,7 @@ app.get('/' ,function (req,res) {
     res.send('zvi\'s server\nWhere all good things start.' + "\nYour ip: +" + clientIp);
 });
 app.listen(app.get('port'),function(){
-    console.log('server started on port '+ app.get('port'));
+    console.log('server started on port itzik '+ app.get('port'));
 });
 
 
